@@ -1,6 +1,14 @@
 ---
 layout: default
-title: Главная
+title: Содержание блога
 ---
-# Привет! Это мой блог на GitHub.
-Здесь я буду делиться своими мыслями и проектами.
+
+# Мои статьи
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a> — {{ post.date | date: "%d.%m.%Y" }}
+    </li>
+  {% endfor %}
+</ul>
