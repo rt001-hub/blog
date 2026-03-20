@@ -1,3 +1,6 @@
 remote_theme: pages-themes/primer
+plugins:
+  - jekyll-remote-theme
+  
 title: Название моего блога
 description: Короткое описание о чем этот сайт
