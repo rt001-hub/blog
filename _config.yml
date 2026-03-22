@@ -1,0 +1,8 @@
+remote_theme: pages-themes/primer
+plugins:
+  - jekyll-remote-theme
+baseurl: "/blog"
+excerpt_separator: "<!--more-->"
+
+title: "rt001: Beyond the obvious"
+description: An uncommon take on common things
